@@ -45,7 +45,17 @@ python main.py
 ## Notes
 - `.env` is not included for security reasons  
 - Each user must provide their own API key
+## Future Improvements
+
+- Integration with broker APIs (Alpaca, IBKR)
+- Real-time data via WebSocket
+- Order execution layer
+- Live trading deployment
+
+## Cloud Deployment
+
+The system was containerized using Docker and successfully executed on Google Cloud, confirming that the full pipeline can run in a remote environment.
 
 ## Notes
 - `.env` is not included for security reasons  
-- Each user must provide their own API key
+- Each user must provide their own API ke
